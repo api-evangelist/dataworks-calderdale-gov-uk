@@ -41,6 +41,10 @@ apis:
       - type: x-api-endpoint
         url: https://dataworks.calderdale.gov.uk/api/3/action/status_show
 common:
+  - type: VulnerabilityDisclosure
+    url: security/dataworks-calderdale-gov-uk-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/dataworks-calderdale-gov-uk-domain-security.yml
   - type: Website
     url: https://dataworks.calderdale.gov.uk
   - type: Documentation
