@@ -43,7 +43,7 @@ tags:
   - Local Council
   - United Kingdom
 created: '2026-06-04'
-modified: '2026-06-04'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: dataworks-calderdale-gov-uk:catalog
@@ -67,6 +67,8 @@ apis:
       - type: x-api-endpoint
         url: https://dataworks.calderdale.gov.uk/api/3/action/status_show
 common:
+  - url: https://dataworks.calderdale.gov.uk/feed
+    type: BlogRSS
   - type: VulnerabilityDisclosure
     url: security/dataworks-calderdale-gov-uk-vulnerability-disclosure.yml
   - type: DomainSecurity
